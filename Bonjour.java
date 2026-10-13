@@ -1,5 +1,6 @@
 public class Bonjour {
     public static void main(String[] args) {
-        System.out.println("Bonjour");
+        String nom = "Birame";
+        System.out.println("Bonjour " + nom);
     }
 }
