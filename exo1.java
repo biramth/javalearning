@@ -14,12 +14,14 @@ public class exo1 {
 
         System.out.print("Entrez la temperature en celcius : ");
         double tempc = scanner.nextDouble();
-        double tempf = tempc * 33.8;
+        double tempf = tempc * 1.8 + 32;
         System.out.println("La temperature en fahrenheit est de " + tempf);
 
         System.out.print("Entrez la masse en kg : ");
         double masskg = scanner.nextDouble();
         double masslb = masskg * 2.20462;
         System.out.println("La masse en livre est de " + masslb);
+
+        scanner.close();
     }
 }
