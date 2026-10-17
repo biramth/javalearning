@@ -24,10 +24,10 @@ public class exo2 {
 
         System.out.print("Vous avez une moyenne de "+ moyenne + " avec une ");
         if(moyenne >= 18) System.out.println("Mention TB + felicitation du jury");
-        else if (moyenne >= 16 && moyenne < 18) System.out.println("Mention TB");
-        else if (moyenne >= 14 && moyenne < 16) System.out.println("Mention Bien");
-        else if (moyenne >= 12 && moyenne < 14) System.out.println("Mention Assez Bien");
-        else if (moyenne >= 10 && moyenne < 12) System.out.println("Mention Passable");
+        else if (moyenne >= 16) System.out.println("Mention TB");
+        else if (moyenne >= 14) System.out.println("Mention Bien");
+        else if (moyenne >= 12) System.out.println("Mention Assez Bien");
+        else if (moyenne >= 10) System.out.println("Mention Passable");
         else System.out.println("Vous n'etes pas admis");
     }
 }
